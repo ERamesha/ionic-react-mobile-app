@@ -1,0 +1,124 @@
+/* Login Screen Container */
+#loginscreen {
+    width: 428px;
+    height: auto;
+    margin: 20px auto; /* Center the Homescreen and add top margin */
+    border-radius: 19px 0px 0px 0px;
+    background: linear-gradient(135deg, #8e9eab, #eef2f3); /* Gradient Background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Box Shadow */
+}
+
+/* Container for all content */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width of the parent container */
+}
+
+#rectangle144 {
+    width: 208px;
+    height: 103px;
+    border-radius: 6px;
+    background: rgba(232, 232, 232, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Space between elements */
+    background-color: rgba(232, 232, 232);
+}
+
+#logo-img {
+    width: 205px;
+    height: 104px;
+}
+
+#rectangle145 {
+    width: 322px;
+    height: 49px;
+    border-radius: 6px;
+    background: rgba(232, 232, 232, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; /* Space between elements */
+    background-color: skyblue;
+}
+
+#heading {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+#rectangle142, #rectangle143, #rectangle146 {
+    width: 322px;
+    height: 35px;
+    border-radius: 6px;
+    background: rgba(232, 232, 232, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; /* Space between elements */
+}
+
+#rectangle146 {
+    margin-left: 100px;
+    width:220px;
+    margin-top: 20px;
+}
+
+
+#user-name, #password {
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background: rgb(238, 241, 239);
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+#user-name:focus, #password:focus {
+    border-color: dodgerblue; /* Change border color on focus */
+}
+
+#button, #button_login {
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px; /* Padding for buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+
+#button_login {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+#button_login:hover {
+    background-color: #218838; /* Darker green on hover */
+}

@@ -1,0 +1,57 @@
+.centered-title {
+    text-align: center;
+    background-color: rgba(232, 232, 232, 1);
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    margin: 16px auto; /* Centering horizontally */
+    width: 100%;
+}
+
+.centered-option {
+    background-color: rgba(232, 232, 232, 1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px auto;
+    width: 90%;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.row_spacing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.row_spacing IonLabel {
+    flex: 1;
+    text-align: left;
+}
+
+.row_spacing div {
+    flex: 1;
+    text-align: right;
+}
+
+.logout_button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3880ff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+     .centered-option {
+        width: 90%;
+    }
+
+    .logout_button {
+        width: 100px;
+    }
+}
